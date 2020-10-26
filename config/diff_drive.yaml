@@ -1,4 +1,8 @@
-mobile_base_controller:
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50
+
+diff_drive_controller:
   type        : "diff_drive_controller/DiffDriveController"
   left_wheel  : 'robot_left_wheel_hinge'
   right_wheel : 'robot_right_wheel_hinge'
